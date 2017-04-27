@@ -1,4 +1,6 @@
 module.exports = function (context, req) {
+    context.log("EDIT from local");
+
     context.log("HTTP trigger function processed a request. RequestUri=%s", req.originalUrl);
     context.log("Request Headers = " + JSON.stringify(req.headers));
     var res;
