@@ -1,4 +1,5 @@
 module.exports = function (context, req) {
+    context.log("EDIT via github");
     context.log("EDIT from local");
 
     context.log("HTTP trigger function processed a request. RequestUri=%s", req.originalUrl);
